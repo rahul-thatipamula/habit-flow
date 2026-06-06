@@ -1,25 +1,44 @@
 # Habit Flow
 
-Habit Flow is a habit tracker app for macOS.
+Habit Flow is a simple and elegant habit tracker for macOS that helps you build consistency and stay on top of your daily goals.
 
 ## Download
 
-You can download the installer from the Releases page:
-[Download Habit Flow for macOS](https://github.com/rahul-thatipamula/habit-flow/releases/latest)
+Download the latest release from GitHub:
 
-## How to Install
+https://github.com/rahul-thatipamula/habit-flow/releases/latest
 
-1. Download the .dmg file from the link above.
-2. Double-click the file and drag the Habit Flow app into your Applications folder.
+## Installation
 
-## How to Open (macOS security warning)
+1. Download the latest `.dmg` file from the Releases page.
+2. Open the `.dmg` file.
+3. Drag **Habit Flow.app** into the **Applications** folder.
+4. Eject the disk image.
 
-Since the app is distributed directly outside the Mac App Store, macOS will show a warning saying the developer cannot be verified when you first try to open it.
+## First Launch
 
-To bypass this and open the app:
-1. Go to your Applications folder.
-2. Right-click (or hold Control and click) the Habit Flow app icon.
-3. Select "Open" from the menu.
-4. Click "Open" on the warning dialog that pops up.
+Since Habit Flow is distributed directly outside the Mac App Store, macOS may prevent it from opening on first launch.
 
-You only need to do this the first time you open the app. After that, you can launch it by double-clicking it normally.
+Open **Terminal** and run:
+
+```bash
+xattr -rd com.apple.quarantine /Applications/Habit\ Flow.app
+open /Applications/Habit\ Flow.app
+```
+
+You only need to do this once after installing the app.
+
+## Updating
+
+When installing a newer version of Habit Flow, replace the existing application in the Applications folder. If macOS blocks the updated version, run the Terminal command above again.
+
+## Requirements
+
+* macOS 13 Ventura or later
+* Apple Silicon (M1, M2, M3, M4) or Intel Mac
+
+## Support
+
+If you encounter any issues, please create an issue on the GitHub repository:
+
+https://github.com/rahul-thatipamula/habit-flow
