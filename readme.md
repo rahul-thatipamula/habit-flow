@@ -18,6 +18,7 @@ https://github.com/rahul-thatipamula/habit-flow/releases/latest
 ## First Launch
 
 Since Habit Flow is distributed directly outside the Mac App Store, macOS may prevent it from opening on first launch.
+(No need to worry, it is completely offline and safe application.)
 
 Open **Terminal** and run:
 
