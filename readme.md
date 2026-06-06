@@ -1,6 +1,8 @@
 # Habit Flow
 
 Habit Flow is a simple and elegant habit tracker for macOS that helps you build consistency and stay on top of your daily goals.
+<img width="1280" height="801" alt="image" src="https://github.com/user-attachments/assets/2a240d82-f38d-4855-8ba7-675b08f436a8" />
+
 
 ## Download
 
